@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .clock {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    text-align: center;
+  }
+  
+  .time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .time-box {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-shadow: 
+      0 0 5px #00ffcc, 
+      0 0 10px #00ffcc, 
+      0 0 15px #00ffcc, 
+      0 0 20px #00ffcc, 
+      0 0 30px #00ffcc, 
+      0 0 40px #00ffcc, 
+      0 0 50px #00ffcc;
+  }
+  
+  .colon {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    padding: 0 10px;
+  }
+  
+  #am-pm {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .date-info {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .date-info div {
+    margin: 0 5px;
+  }
+  
+  .date-info div span {
+    font-weight: bold;
+    color: #00ffcc;
+  }
+  
